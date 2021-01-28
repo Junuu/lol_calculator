@@ -130,8 +130,7 @@ function button_active() {
         }
         count = count + 1;
     }
-    if (start_score[0] != finish_score[0]) {
-        alert(initial_start, finish);
+    if (start_score[0] != finish_score[0]) {        
         while (initial_start < finish) {
             initial_start += 1;
             if (initial_start == 400) {
