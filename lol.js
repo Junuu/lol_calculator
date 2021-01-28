@@ -162,6 +162,6 @@ function button_active()
 		}
 	
 	result = start_score + finish_score + mmr_score ;
-	document.getElementById("msg").innerHTML = "계산된 가격 : " + price + " "+ start + " " + finish + "이겨야 하는 판 수 : " + count;
+	document.getElementById("msg").innerHTML = "계산된 가격 : " + price + "<br>이겨야 하는 판 수 : " + count;
 }
 
